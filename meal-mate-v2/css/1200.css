@@ -1,6 +1,6 @@
 /*
-    Document   : css/1200.css
-    Created on : 2016-03-19 06:25 PM
+    Document   : 1200.css
+    Created on : 2016-03-20 12:35 PM
     Author     : callumthursby
     Description:
     Purpose of the stylesheet follows.
@@ -9,4 +9,30 @@
 
 root {
     display: block;
+}
+
+#header {
+    background-color: blue;
+    width:100%;
+    max-width:1270px; 
+    height:100px;
+    position:absolute; 
+}
+
+#body {
+    background-color: green;
+    width:100%;
+    max-width:1270px;
+    height:500px;
+    position:absolute;
+    top:120px; 
+}
+
+#footer {
+    background-color: black; 
+    width:100%;
+    max-width:1270px; 
+    height:100px;
+    position:absolute;
+    top:640px; 
 }
