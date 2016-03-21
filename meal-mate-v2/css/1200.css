@@ -11,12 +11,14 @@ root {
     display: block;
 }
 
+
 #header {
-    background-color: blue;
+   /* background-color: blue; */
     width:100%;
     max-width:1270px; 
     height:100px;
-    position:absolute; 
+    position:absolute;
+    text-align:center; 
 }
 
 #body {
@@ -26,6 +28,97 @@ root {
     height:500px;
     position:absolute;
     top:120px; 
+}
+
+#pickIn{
+    background-color:yellow;
+    width:340px;
+    height:480px;
+    position:absolute;
+    left:0px;
+    padding:10px; 
+}
+
+#submitBtn{
+    background-color:green; 
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center; 
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px; 
+    -webkit-transition-duration:0.4s; 
+    transition-duration:0.4s; 
+    cursor:pointer; 
+}
+
+#submitBtn:hover{
+    background-color:white;
+    color:black;
+    border: 2px solid green; 
+}
+
+#pickRep{
+    background-color:limegreen;
+    width:410px;
+    height:480px; 
+    position:absolute;
+    left:400px;
+    padding:10px; 
+     -webkit-transition: opacity 0.5s ease-in;
+     -moz-transition: opacity 0.5s ease-in;
+     -o-transition: opacity 0.5s ease-in;
+    opacity:0; 
+}
+
+#pickRep.fade-out{
+    opacity:0;
+}
+
+#pickRep.fade-in{
+    opacity:1; 
+}
+
+#submitBtn2{
+    background-color:green; 
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center; 
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px; 
+    -webkit-transition-duration:0.4s; 
+    transition-duration:0.4s; 
+    cursor:pointer; 
+}
+
+#submitBtn2:hover{
+    background-color:white;
+    color:black;
+    border: 2px solid green; 
+}
+
+#displayRep{
+    background-color:skyblue; 
+    width:380px; 
+    height:480px; 
+    position:absolute;
+    left:870px; 
+    padding:10px; 
+    -webkit-transition: opacity 0.5s ease-in;
+     -moz-transition: opacity 0.5s ease-in;
+     -o-transition: opacity 0.5s ease-in;
+    opacity:0;
+}
+
+#displayRep.fade-out{
+    opacity:0;
+}
+
+#displayRep.fade-in{
+    opacity:1; 
 }
 
 #footer {

@@ -43,21 +43,40 @@ To change this template use Tools | Templates.
      <link rel="stylesheet" type="text/css" href="css/480.css">
      <link rel="stylesheet" type="text/css" href="css/320.css">
     
+  
     <!-- CSS Style Sheets END -->
     
+    <!-- Javascript files-->
+    <script src="javascript/fade-in.js"></script>
     
+  
+    
+   
 </head>
 <body>
     
        <!-- Header Div start --> 
      <div id="header">
-         Header 
+         <img src="images/meal-mate-.gif" alt="Meal Mate Logo" title="Meal Mate" width="200px" height="100px">
     </div> 
         <!-- Header Div End --> 
     
     <!-- Body Div start --> 
      <div id="body">
-         Body 
+         <div id="pickIn">
+             Pick In
+             <br><br><br>
+             <input id="submitBtn" type="button" value="Submit Ingredients" onclick="fadeINpickRep(this);">
+             
+         </div>
+         <div id="pickRep">
+             Pick Rep
+             <br><br><br>
+             <input id="submitBtn2" type="button" value="Submit Recipe" onclick="fadeINdisplayRep(this);">
+         </div>
+         <div id="displayRep">
+             Display the Rep
+         </div>
     </div> 
         <!-- Body Div End --> 
     
