@@ -36,6 +36,7 @@ To change this template use Tools | Templates.
     <title>Meal Mate - Home</title>
     
     <!-- CSS Style Sheets START -->
+     <link rel="stylesheet" type="text/css" href="css/main.css">
      <link rel="stylesheet" type="text/css" href="css/1600.css">
      <link rel="stylesheet" type="text/css" href="css/1200.css">
      <link rel="stylesheet" type="text/css" href="css/992.css">
@@ -48,6 +49,7 @@ To change this template use Tools | Templates.
     
     <!-- Javascript files-->
     <script src="javascript/fade-in.js"></script>
+    <script src="javascript/tooltip.js"></script>
     
   
     
@@ -63,20 +65,45 @@ To change this template use Tools | Templates.
     
     <!-- Body Div start --> 
      <div id="body">
+         
          <div id="pickIn">
-             Pick In
+             <h3> Step 1 Pick Ingredients </h3>
+             Please enter each ingredient into a separate field or use the Add More button to add another field. <br> <br> 
+             
+             <form id="enterIng">
+                 <label for="ingredient1">Ingredient 1:</label>
+                 <input type="text" id="ingredient1" value="e.g Bread..." maxlength="20" size="30" title="e.g Eggs, Milk, Bread etc">
+             </form>
+             
              <br><br><br>
              <input id="submitBtn" type="button" value="Submit Ingredients" onclick="fadeINpickRep(this);">
              
          </div>
+         
+        <div id="pickRepBG">
+             <h3>Step 2 Please Pick a Recipe</h3>
+             <h4>(Only available after Step 1)</h4>
+             
+         </div>
+         
          <div id="pickRep">
-             Pick Rep
+             <h3> Step 2 Pick Recipe </h3>
              <br><br><br>
              <input id="submitBtn2" type="button" value="Submit Recipe" onclick="fadeINdisplayRep(this);">
          </div>
-         <div id="displayRep">
-             Display the Rep
+        
+         <div id="displayRepBG">
+             <h3>Step 3 Please Pick a Recipe</h3>
+             <h4>(Only available after Step 2)</h4>
+             
          </div>
+        
+         <div id="displayRep">
+             <h3> Step 3 Ready, Steady, Cook  </h3>
+         </div>
+         
+       
+    
     </div> 
         <!-- Body Div End --> 
     
