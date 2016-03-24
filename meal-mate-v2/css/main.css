@@ -40,9 +40,35 @@ root {
     -webkit-transition-duration:0.4s; 
     transition-duration:0.4s; 
     cursor:pointer; 
+    position:absolute;
+    top:400px; 
+    left:15px; 
 }
 
 #submitBtn:hover{
+    background-color:white;
+    color:black;
+    border: 2px solid green; 
+}
+
+#resetBtn{
+    background-color:green; 
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center; 
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px; 
+    -webkit-transition-duration:0.4s; 
+    transition-duration:0.4s; 
+    cursor:pointer; 
+    position:absolute;
+    top:400px;
+    left:240px;
+}
+
+#resetBtn:hover{
     background-color:white;
     color:black;
     border: 2px solid green; 
@@ -102,4 +128,31 @@ root {
 
 #displayRep.fade-in{
     opacity:1; 
+}
+
+/* Form */
+
+label{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:14px; 
+    font-weight:bold;  
+}
+
+input[type=text]{
+    border: 2px solid lightgray; 
+    border-radius:4px;
+    height:30px;
+    padding-bottom:2px; 
+    padding-left:5px; 
+    line-height:10px; 
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight:500; 
+    font-size:14px; 
+    color:black;
+}
+
+input[type=text]:focus{
+    border: 2px solid green; 
+    border-radius:4px;
+    outline:none; 
 }

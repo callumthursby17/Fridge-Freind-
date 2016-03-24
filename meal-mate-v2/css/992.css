@@ -7,6 +7,10 @@
     To change this template use Tools | Templates.
 */
 
-root {
-    display: block;
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    root {
+        display: block;
+    }
+    
 }

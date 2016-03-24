@@ -7,19 +7,7 @@
 */
 
 
- function fadeINpickRep(btnElement){
-    if (btnElement.value === "Submit Ingredients") {
-        document.getElementById("pickRep").className = "fade-in"
-        document.getElementById("pickRepBG").className = "fade-out"
-        btnElement.value = "Reset Ingredients";
-    }
-    else {
-        document.getElementById("pickRep").className = "fade-out"
-        document.getElementById("pickRepBG").className = "fade-in"
-        btnElement.value = "Submit Ingredients";  
-    }
-       
-} 
+
 
   function fadeINdisplayRep(btnElement){
     if (btnElement.value === "Submit Recipe") {
