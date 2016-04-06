@@ -52,6 +52,7 @@ To change this template use Tools | Templates.
    <!-- <script src="javascript/tooltip.js"></script>-->
     <script src="javascript/formValidation.js"></script>
     <script src="javascript/visualimpairments.js"></script>
+    <script src="javascript/colourChange.js"></script>
     
    
 </head>
@@ -59,7 +60,7 @@ To change this template use Tools | Templates.
     
        <!-- Header Div start --> 
      <div id="header">
-         <img src="images/meal-mate-.gif" alt="Meal Mate Logo" title="Meal Mate" width="200px" height="100px">
+         <img src="images/meal-mate-.gif" class="mealPic" alt="Meal Mate Logo" onclick="colourChange(this)" title="Meal Mate" width="200px" height="100px">
          
         <div id="visImp">
              Adjust Test Size
@@ -81,8 +82,8 @@ To change this template use Tools | Templates.
               Adjust Colour Contrast
              
              <select onchange="colourChange(this);">
-                  <option value="select" disabled>Please Select an option...</option>
-                  <option value="black and white">black and white</option>
+                  <option value="select" disabled>Please select an option...</option>
+                  <option value="black and white">Black and White</option>
                   <option value="100%" selected >Normal</option>
                   
                   
@@ -98,7 +99,7 @@ To change this template use Tools | Templates.
          
          <div id="pickIn">
              <h3> Step 1 Pick Ingredients </h3>
-             <p id=pickInText> Please enter each ingredient into a separate field. <!--or use the Add More button to add another field.--></p> 
+             <p id="pickInText"> Please enter each ingredient into a separate field. <!--or use the Add More button to add another field.--></p> 
              
              <form id="enterIng" name="enterIng">
                  

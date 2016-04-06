@@ -8,12 +8,5 @@
 
 function textSize(selectTag){
     var sizeValue = selectTag.options[selectTag.selectedIndex].text;
-    document.getElementById("pickInText").style.fontsize = sizeValue;
-}
-
-function colourChange(selectTag){
-    var colourValue = selectTag.options[selectTag.selectedIndex].text; 
-    if(colourValue === "black and white"){
-        document.getElementById("header").style.background-color="black";
-    }
+    document.getElementById("body").style.fontSize = sizeValue;
 }
