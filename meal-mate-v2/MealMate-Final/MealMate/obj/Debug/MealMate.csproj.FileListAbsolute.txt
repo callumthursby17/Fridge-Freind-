@@ -1,0 +1,10 @@
+C:\Users\callumthursby\Documents\Visual Studio 2010\Projects\MealMate\MealMate\bin\MealMate.dll
+C:\Users\callumthursby\Documents\Visual Studio 2010\Projects\MealMate\MealMate\bin\MealMate.pdb
+C:\Users\callumthursby\Documents\Visual Studio 2010\Projects\MealMate\MealMate\obj\Debug\MealMate.dll
+C:\Users\callumthursby\Documents\Visual Studio 2010\Projects\MealMate\MealMate\obj\Debug\MealMate.pdb
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\bin\MealMate.dll.config
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\bin\MealMate.dll
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\bin\MealMate.pdb
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\obj\Debug\MealMate.csprojResolveAssemblyReference.cache
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\obj\Debug\MealMate.dll
+C:\Users\callumthursby\Documents\Visual Studio 2015\Projects\MealMate\MealMate\obj\Debug\MealMate.pdb
